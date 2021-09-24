@@ -1,8 +1,5 @@
-const item1 = 5.678, item2 = 123.965, item3 = 90.2345;
+const meat = 15.678, bread = 123.965, cheese = 90.2345;
 
-let meat = item2;
-let bread = item1;
-let cheese = item3;
 let sumRound = (Math.floor(meat) + Math.floor(cheese) + Math.floor(bread) );
 let sum = (meat + bread + cheese);
 let sale = Math.random();
@@ -17,9 +14,6 @@ console.log("Summ floor is " + (Math.floor(meat) + Math.floor(cheese) + Math.flo
 
 console.log("Summ round is " + Math.round(sumRound/100)*100);
 
-
-
-
 function isEven () {
     if ((Math.floor(sum)) % 2 == 0) {
        return true }
@@ -27,13 +21,11 @@ function isEven () {
         return  false }
     };
 
-
 console.log("Summ Even is " + (isEven()));
 
 console.log('Change from 500 is ' + (500 - sum));
 
 console.log('Price average is ' + Math.round((sum/3) * 100)/100);
-
 
 console.log('Discount price is ' + (Math.round((sum*sale)*100)/100));
 
