@@ -13,7 +13,7 @@ console.log("Summ is " + sum);
 
 console.log("Summ floor is " + (Math.floor(meat) + Math.floor(cheese) + Math.floor(bread) ) );
 
-console.log("Summ round is " + Math.round((sumRound/100)*100));
+console.log("Summ round is " + (Math.floor((sum)/100)) * 100);
 
 function isEven () {
     if ((Math.floor(sum)) % 2 === 0) {
