@@ -21,10 +21,10 @@ document.writeln(M + ": " + typeof(M) + "<br>");
 
 isEven = confirm("Пропускать парные числа?");
 
-for (N; N <= M; N++) {
-    if (isEven && N%2===0) {
+for (let i = N; i <= M; i++) {
+    if (isEven && i%2===0) {
        continue;}  
-    sum = sum + N;};
+    sum = sum + i;};
 
 if (isEven) {
 document.writeln("Сумма всех непарных чисел: " + sum);
