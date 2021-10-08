@@ -41,7 +41,7 @@ const countSymbols = (symbol, word) => {
     word = word.toLowerCase();
     symbol = symbol.toLowerCase();
     
-    for (let i = 0; i < word.lenght; i++) {
+    for (let i = 0; i < word.length; i++) {
         if (symbol === word[i]) {
             count++;
           }
